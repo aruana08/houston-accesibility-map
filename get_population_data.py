@@ -18,4 +18,4 @@ df["Total_Population"] = df["Total_Population"].astype(int)
 
 # Save to CSV for later use
 df.to_csv("data/harris_population.csv", index=False)
-print("✅ Population data saved to data/harris_population.csv")
+print("Population data saved to data/harris_population.csv")

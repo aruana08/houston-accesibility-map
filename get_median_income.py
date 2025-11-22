@@ -25,8 +25,8 @@ df["median_income"] = pd.to_numeric(df["median_income"], errors="coerce")
 df["GEOID"] = df["state"] + df["county"] + df["tract"]
 
 print(df.head())
-print(f"✅ Downloaded {len(df)} tracts with median income data")
+print(f"Downloaded {len(df)} tracts with median income data")
 
 # Save file
 df.to_csv("data/harris_median_income.csv", index=False)
-print("💾 Saved as data/harris_median_income.csv")
+print("Saved as data/harris_median_income.csv")
