@@ -1,0 +1,9 @@
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.xml
+tracts/
+cache/
